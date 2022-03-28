@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ＭＳ Ｐゴシック";
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+.game-container {
+  position: relative;
+  width: 256px;
+  height: 224px;
+  margin: 0 auto;
+  outline: 1px solid #fff;
+
+  transform: scale(2.5) translateY(50%);
+}
+
+.game-container canvas {
+  image-rendering: pixelated;
+}
+.title {
+  color: #fffd02;
+  border: #da5824;
+  position: absolute;
+  bottom: 60%;
+  left: 41.3%;
+}
+.StartButton {
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  bottom: 50%;
+  left: 48%;
+  width: 50px;
+  padding: 3px;
+  display: inline-block;
+  border:none;
+}
+
+.StartButton:hover {
+  color: #000000;
+  background-color: white;
+}
+
+.HSButton {
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  bottom: 45%;
+    left: 47.5%;
+  width: 70px;
+  padding: 3px;
+  display: inline-block;
+  border:none;
+}
+
+.HSButton:hover {
+  color: #000000;
+  background-color: white;
+  text-align: center;
+}
